@@ -3,7 +3,7 @@ class SI:
     replaceWin = None
     githubWin = None
     hexoWin = None
-
+    maaWin = None
 
 def showReplace():
     SI.replaceWin.ui.show()
@@ -15,3 +15,6 @@ def showGithub():
 
 def showHexo():
     SI.hexoWin.ui.show()
+
+def showMAA():
+    SI.maaWin.ui.show()

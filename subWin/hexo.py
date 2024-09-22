@@ -4,7 +4,7 @@ from PySide2.QtWidgets import QFileDialog, QMessageBox
 import markdown2
 import json
 from datetime import datetime
-
+from utils import getRootPath
 
 def str2tag(s):
     s_list = s.split(' ')
@@ -19,7 +19,7 @@ class hexoWin:
         self.ui = QUiLoader().load('ui/hexo.ui')
         self.ui.btnStart.clicked.connect(self.deploy)
         self.ui.btnFile.clicked.connect(self.selectFilePath)
-        self.jsonData = json.load(open('config.json', 'r', encoding='utf-8'))
+        self.jsonData = json.load(open(getRootPath() + '/subWin/config.json', 'r', encoding='utf-8'))
 
     def deploy(self):
         summary = self.ui.summary.text()
