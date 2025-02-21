@@ -628,6 +628,7 @@
   ('subWin.github', 'E:\\GitCode\\JunBox\\subWin\\github.py', 'PYMODULE'),
   ('subWin.hexo', 'E:\\GitCode\\JunBox\\subWin\\hexo.py', 'PYMODULE'),
   ('subWin.maa', 'E:\\GitCode\\JunBox\\subWin\\maa.py', 'PYMODULE'),
+  ('subWin.paper', 'E:\\GitCode\\JunBox\\subWin\\paper.py', 'PYMODULE'),
   ('subWin.replace', 'E:\\GitCode\\JunBox\\subWin\\replace.py', 'PYMODULE'),
   ('subprocess',
    'D:\\Scoop\\apps\\miniconda3\\current\\envs\\JunBox\\lib\\subprocess.py',

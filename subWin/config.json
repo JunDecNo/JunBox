@@ -2,5 +2,6 @@
   "author": "JunDecNo",
   "hexo_post": "F:/BlogFile/source/_posts/",
   "hexo_root": "F:/BlogFile/",
-  "maa_path": "D:/Games/Other/MAA-v5.5.11452-win-x64"
+  "maa_path": "D:/Games/Other/MAA-v5.5.11452-win-x64",
+  "paper_json":"F:/BlogFile/source/_data/papers.json"
 }
